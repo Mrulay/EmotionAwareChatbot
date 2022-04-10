@@ -79,9 +79,9 @@ emotions = []
 for _ in range(10):
     syn = list()
     if _==0:
-        print("Hi! I am Cynthia. How are you feeling today?")
+        print("Hi! How are you feeling today?")
     else:
-        print("Tell me a little more")
+        print("Tell me a little more...")
     text_input = (input('Enter question: '))
     text = preProcessText(text_input)
     text = tfidf.transform([text]).toarray()
